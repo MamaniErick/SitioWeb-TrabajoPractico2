@@ -1,4 +1,4 @@
-# 🌍 Mega Turismo - Sitio Web de Agencia de Viajes
+# Mega Turismo - Sitio Web de Agencia de Viajes
 
 Este proyecto es una página web desarrollada como trabajo práctico para la materia **Programación y Servicios Web**.
 
@@ -20,3 +20,6 @@ El objetivo del proyecto es aplicar conocimientos de:
 - HTML5
 - CSS3
 - Git & GitHub
+
+## ALUMNO: Mamani Erick Rolando
+## LU: 6027
