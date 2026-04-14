@@ -30,13 +30,6 @@ header {
     padding: 15px 40px;
 }
 
-.logo a {
-    color: var(--color-blanco);
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: bold;
-}
-
 .menu {
     list-style: none;
     display: flex;
@@ -60,7 +53,7 @@ header {
 .mega-content {
     position: absolute;
     top: 100%;
-    right: 0; /* Alineado a la derecha */
+    right: 0; 
     background: var(--color-secundario);
     min-width: 220px;
     border-radius: 8px;
@@ -75,7 +68,7 @@ header {
 
 .mega-column {
     display: flex;
-    flex-direction: column; /* Opciones una debajo de la otra */
+    flex-direction: column; 
 }
 
 .mega-column a {
@@ -387,7 +380,6 @@ header {
 
 /*COMENTARIOS*/
 
-/* ===== TESTIMONIOS ===== */
 .testimonios {
     background: #f4f4f4;
     padding: 60px 20px;
@@ -428,7 +420,7 @@ header {
     font-size: 1.1rem;
 }
 
-/* Tarjetas de testimonios */
+/*Tarjetas*/
 .testimonio {
     flex: 0 0 100%;
     width: 100%;
@@ -1120,7 +1112,7 @@ tr:hover {
     transition: 0.3s ease;
 }
 
-/* ===== TOOLTIPS ===== */
+/*TOOLTIPS*/
 .tooltip {
     position: relative;
     cursor: pointer;
@@ -1150,7 +1142,7 @@ tr:hover {
     opacity: 1;
 }
 
-/* ===== RESPONSIVE ===== */
+/*RESPONSIVE*/
 @media (max-width: 768px) {
     .tabla-precios th,
     .tabla-precios td {
@@ -1161,13 +1153,4 @@ tr:hover {
     .banner-pagina h1 {
         font-size: 2rem;
     }
-}
-
-/***MODO OSCURO***/
-body.dark-mode {
-    background: #121212;
-    color: rgb(112, 112, 112);
-}
-body.dark-mode header {
-    background: #1e1e1e;
 }
